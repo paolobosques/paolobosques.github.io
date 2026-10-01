@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: Paolo Bosques-Paulet"
+title: "Paolo Bosques-Paulet"
 author_profile: true
 redirect_from: 
   - /about/
