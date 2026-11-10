@@ -24,13 +24,13 @@ url                      : https://pbosques.github.io # The base hostname & prot
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "Paolo Bosques-Paulet"
+  pronouns         : "he/him"  
+  bio              : "Engineering and Applied Mathematics Double Major at Swarthmore College"
+  location         : "Philadelphia, PA | Eureka CA"
+  employer         : "Swarthmore College"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "pbosque1@swarthmore.edu" 
 
   # Academic websites
   academia         : # URL
@@ -87,8 +87,11 @@ publication_category:
   # books:
   #   title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
-  conferences:
+    title: 'Journal Articles'
+    # paperurl: 'https://doi.org/10.1234/jws.2024.001'
+    # bibtexurl: '/files/widget-dynamics.bib'
+    # citation: 'Doe, J., & Smith, A. (2024). &quot;Dynamics of Widgets in Low-Temperature Regimes.&quot; <i>Journal of Widget Science</i>, 12(3), 45–67.'
+  posters:
     title: 'Posters'
   talks: 
     title: 'Talks'
@@ -139,20 +142,20 @@ yandex_site_verification :
 
 
 # Social Sharing
-twitter:
-  username               : &twitter
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+# twitter:
+  # username               : &twitter
+# facebook:
+  # username               :
+  # app_id                 :
+  # publisher              :
+# og_image                 :  # Social media default site image
+# og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+# social:
+#   type                   : # Person or Organization (defaults to Person)
+#   name                   : # If the user or organization name differs from the site's name
+#   links: # An array of links to social media profiles
 
 
 # Analytics
