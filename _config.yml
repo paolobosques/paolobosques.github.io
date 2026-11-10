@@ -23,11 +23,11 @@ url                      : https://pbosques.github.io # The base hostname & prot
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "headshot_11_26.png"
   name             : "Paolo Bosques-Paulet"
   pronouns         : "he/him"  
   bio              : "Engineering and Applied Mathematics Double Major at Swarthmore College"
-  location         : "Philadelphia, PA | Eureka CA"
+  location         : "Philadelphia, PA | Eureka, CA"
   employer         : "Swarthmore College"
   uri              : # URL
   email            : "pbosque1@swarthmore.edu" 
