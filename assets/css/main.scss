@@ -32,8 +32,13 @@
 
     "layout/forms",
 
+
     "layout/page",
     "layout/archive",
     "layout/sidebar",
     "layout/json_cv"
+    /* Hide the website footer */
+   .page__footer {
+    display: none;
+}
 ;
