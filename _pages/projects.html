@@ -1,0 +1,56 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+redirect_from:
+  - /portfolio/
+---
+
+<style>
+  .project-card {
+    display: flex;
+    gap: 1.25em;
+    align-items: flex-start;
+    padding: 1.25em 0;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+  .project-card__image {
+    flex: 0 0 220px;
+    max-width: 220px;
+  }
+  .project-card__image img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  .project-card__placeholder {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border: 1px dashed var(--global-border-color);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75em;
+    color: var(--global-text-color-light);
+  }
+  .project-card__body { flex: 1 1 auto; }
+  .project-card__title { margin: 0 0 0.25em; font-size: 1.15em; }
+  .project-card__meta {
+    margin: 0 0 0.5em;
+    font-size: 0.8em;
+    color: var(--global-text-color-light);
+  }
+  .project-card__excerpt { margin: 0 0 0.75em; font-size: 0.9em; }
+  @media (max-width: 600px) {
+    .project-card { flex-direction: column; }
+    .project-card__image { flex-basis: auto; max-width: 100%; width: 100%; }
+  }
+</style>
+
+{% include base_path %}
+
+{% assign projects = site.projects | sort: "date" | reverse %}
+{% for post in projects %}
+  {% include archive-single-project.html %}
+{% endfor %}

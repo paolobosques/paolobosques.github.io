@@ -1,0 +1,36 @@
+{% include base_path %}
+
+{% if post.header.teaser contains "://" %}
+  {% assign teaser_src = post.header.teaser %}
+{% elsif post.header.teaser %}
+  {% assign teaser_src = post.header.teaser | prepend: "/images/" | prepend: base_path %}
+{% else %}
+  {% assign teaser_src = nil %}
+{% endif %}
+
+<article class="project-card" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="project-card__image">
+    <a href="{{ base_path }}{{ post.url }}">
+      {% if teaser_src %}
+        <img src="{{ teaser_src }}" alt="{{ post.title }}">
+      {% else %}
+        <div class="project-card__placeholder">preview image</div>
+      {% endif %}
+    </a>
+  </div>
+  <div class="project-card__body">
+    <h2 class="project-card__title" itemprop="headline">
+      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <p class="project-card__meta">
+      {% if post.affiliation %}{{ post.affiliation }}{% endif %}{% if post.context %} &middot; {{ post.context }}{% endif %}<br />
+      {% if post.location %}{{ post.location }}{% endif %}{% if post.location and post.date_range %} &middot; {% endif %}{% if post.date_range %}{{ post.date_range }}{% endif %}
+    </p>
+    {% if post.excerpt %}
+      <p class="project-card__excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+    {% endif %}
+    {% if post.pdfurl %}
+      <a href="{% if post.pdfurl contains '://' %}{{ post.pdfurl }}{% else %}{{ post.pdfurl | prepend: base_path }}{% endif %}" class="btn btn--inverse btn--small"><i class="fas fa-file-pdf" aria-hidden="true"></i> Write-up (PDF)</a>
+    {% endif %}
+  </div>
+</article>

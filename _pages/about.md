@@ -7,10 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a student at Swarthmore College studying **Applied Mathematics and Engineering**.
-
-My research interests lie at the intersection of computational mathematics,
-engineering, and human biology.
+I'm originally from Eureka, a town of about 20,000 people in the redwoods of Humboldt County, Northern California. As a mathematics and engineering student at Swarthmore College, I have immersed myself in biomechanics and scientific computing research. I am pursuing a research career because I believe that computational mathematics and modeling have the potential to reduce the equipment and travel required to provide advanced medical care to rural and underserved communities like my hometown.
 
 <!--
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
