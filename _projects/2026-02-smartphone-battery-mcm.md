@@ -8,7 +8,7 @@ affiliation: "COMAP Mathematical Contest in Modeling"
 context: "Three-person team, 100-hour competition"
 location: ""
 header:
-  teaser: images/smartphone-battery.png
+  teaser: smartphone-battery.png
 pdfurl: /files/projects/smartphone-battery.pdf
 ---
 
