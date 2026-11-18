@@ -1,11 +1,11 @@
 # The following is the order of the links in the header of the website.
 
 main:
-  - title: "About"
+  - title: "Research"
     url: /
 
-  - title: "Research"
-    url: /research/
+  - title: "About"
+    url: /about/
 
   - title: "Projects"
     url: /projects/
