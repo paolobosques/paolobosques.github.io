@@ -8,7 +8,7 @@ affiliation: "University of New South Wales, Graduate School of Biomedical Engin
 context: "Course project, BIOM9711"
 location: "Sydney, NSW, Australia"
 header:
-  teaser: images/stented-arteries.png
+  teaser: stented-arteries.png
 pdfurl: /files/projects/stented-arteries.pdf
 ---
 
