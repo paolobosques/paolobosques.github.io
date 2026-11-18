@@ -7,8 +7,8 @@ date_range: "October – December 2024"
 affiliation: "Independent project"
 location: "Swarthmore, PA, USA"
 header:
-  teaser: projects/thumb-inverse-kinematics.png
-pdfurl: /files/projects/thumb-movement.gif
+  teaser: projects/thumb-movement.png
+pdfurl: /files/projects/thumb-inverse-kinematics.pdf
 ---
 
 This project solved the inverse kinematics problem for the human thumb numerically in Python. A damped Jacobian pseudoinverse drives the fingertip toward target positions while remaining stable near singular configurations, and a null-space optimization term uses the remaining redundancy to minimize total joint-angle change and keep each joint within its anatomical range of motion.
